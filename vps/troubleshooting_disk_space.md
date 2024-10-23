@@ -1,4 +1,6 @@
 
+---
+
 ### Troubleshooting Full Disk Storage on Ubuntu VPS
 
 If your Ubuntu VPS disk storage is full and you're not able to identify what's consuming the space, follow these steps to pinpoint large files and directories:
@@ -57,3 +59,5 @@ docker system prune -a
 ```
 
 By following these steps, you can identify the source of disk usage and take the necessary actions to free up space.
+
+---
