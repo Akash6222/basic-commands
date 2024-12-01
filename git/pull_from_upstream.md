@@ -27,19 +27,19 @@ This will download any new commits, branches, or tags from the upstream.
 
 ### Step 3: Merge Changes
 
-Switch to the branch you want to update (typically `main` or `dev`):
+Switch to the branch you want to update (typically `dev` or `feature` branch):
 
 ```bash
 git checkout dev
 ```
 
-Now, merge the upstream changes:
+Now, merge the specific tag (e.g., v3.3.12) from the upstream repository into your current branch
 
 ```bash
-git merge upstream/dev
+git merge v3.3.12
 ```
 
-This command merges the upstream `dev` branch into your local branch. If conflicts arise, resolve them before committing.
+This command merges the upstream `v3.3.12` branch into your dev branch. If conflicts arise, resolve them before committing.
 
 ### Step 4: Push Changes to Your Fork
 
