@@ -5,6 +5,17 @@
 
 This guide will help you keep your forked repository updated with changes from the original repository (upstream).
 
+### Step 0: Remove Existing Upstream (if needed)
+
+If you previously added an incorrect or outdated upstream remote, remove it first:
+
+```bash
+git remote remove upstream
+```
+
+> 💡 You only need to do this if you want to reconfigure the upstream URL. If no upstream is set or it’s correct, skip to Step 1.
+
+
 ### Step 1: Add Upstream Repository
 
 If you haven’t set up the upstream repository yet, add it by using:
